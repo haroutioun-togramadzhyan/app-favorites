@@ -1,0 +1,51 @@
+
+
+
+
+.apps {
+  margin: 0;
+  padding: 0;
+}
+
+.page {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.usage {
+  display: flex;
+  justify-content: center;
+  opacity: 0.9;
+  position: absolute;
+  bottom: 5px;
+  line-height: 20px;
+  z-index: 1000;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  pointer-events: none;
+}
+
+
+h1 {
+  color: white;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+img{
+  transition: transform 0.4s ease-in-out;
+}
+
+
+img:hover{
+  transform: scale(1.3);
+}
